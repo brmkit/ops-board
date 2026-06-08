@@ -1,0 +1,9 @@
+data/ops/
+data/users.json
+data/.secret
+
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.DS_Store

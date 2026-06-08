@@ -1,0 +1,21 @@
+services:
+  api:
+    build: ./api
+    volumes:
+      - ./data:/data
+    environment:
+      - OPS_BOARD_DATA_DIR=/data
+      - OPSBOARD_SECRET=${OPSBOARD_SECRET:-changeme-set-in-env}
+      - OPSBOARD_ALLOW_REGISTER=${OPSBOARD_ALLOW_REGISTER:-false}
+      - OPSBOARD_TOKEN_HOURS=${OPSBOARD_TOKEN_HOURS:-8}
+      - OPSBOARD_INIT_USER=${OPSBOARD_INIT_USER:-}
+      - OPSBOARD_INIT_PASSWORD=${OPSBOARD_INIT_PASSWORD:-}
+    restart: unless-stopped
+
+  web:
+    build: ./web
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+    restart: unless-stopped
