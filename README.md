@@ -6,7 +6,7 @@ The reason is that attackers think in graphs when they analyze the target, but r
 
 On the board, every host, identity, credential, finding, and open question is a node carrying where it currently sits, and each edge describes a relationship: confirmed, hypothetical, blocked, or attempted and interrupted. The picture fills in as the engagement moves. It runs locally or deployed, with authentication and real-time sharing built in.
 
-I looked for a tool that did this, didn't find one, and built it. The full reasoning is [in this post](https://brmk.me/posts/obsessed-with-graphs).
+I looked for a tool that did this, didn't find one, and built it. The full reasonin [in this post](https://brmk.me/posts/obsessed-with-graphs).
 
 <details>
 <summary>DEMO</summary>
