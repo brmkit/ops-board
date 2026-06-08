@@ -8,7 +8,7 @@ This folder explains both the idea behind the tool and how the running system is
 
 | Document | What it covers |
 |----------|----------------|
-| [obsessed by graphs](https://brmk.me/posts/obsessed-by-graphs) | The reasoning behind the tool: why operations are graphs, not sequences, and what a live shared model buys you. Read this first if you want the "why". |
+| [obsessed with graphs](https://brmk.me/posts/obsessed-with-graphs) | The reasoning behind the tool: why operations are graphs, not sequences, and what a live shared model buys you. Read this first if you want the "why". |
 | [data-model.md](data-model.md) | Node types, node states, edge states, and the on-disk JSON shape. The vocabulary of the board. |
 | [usage.md](usage.md) | How to drive the board: canvas interactions, the toolbar, search and filters, export, auto-save, and real-time collaboration. |
 | [architecture.md](architecture.md) | How the system is built: containers, frontend, backend, storage, authentication, and the real-time layer. |
